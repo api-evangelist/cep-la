@@ -1,0 +1,32 @@
+aid: cep-la
+name: Cep.la
+description: "Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states"
+url: http://cep.la/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: Cep.la
+    description: "Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states"
+    humanURL: http://cep.la/
+    baseURL: http://cep.la/
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: http://cep.la/
+common:
+  - type: Website
+    url: http://cep.la/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
